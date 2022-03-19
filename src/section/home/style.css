@@ -1,0 +1,59 @@
+.banner-home {
+  background-image: url(../../assets/images/banner.jpg);
+  background-position: bottom bottom;
+  background-size: cover;
+  position: relative;
+  min-height: calc(100vh - 70px);
+}
+@media (max-width: 768px) {
+  .banner-home {
+    height: auto;
+    min-height: auto;
+    padding: 100px 0 150px 0;
+  }
+}
+
+.banner-home:after,
+.latest-drops:after,
+.view-artwork:after,
+.embed-nfts::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+}
+/* .banner-home:after {
+  background-color: rgba(0, 0, 0, 0.4);
+} */
+.card-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 28rem;
+}
+.card-img-wrapper span {
+  width: 100%;
+}
+.card-btm {
+  border: 1px solid #ededed;
+}
+
+.latest-drops,
+.view-artwork,
+.embed-nfts {
+  background-image: url(../../assets/images/latestDrop-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.view-artwork {
+  background-image: url(../../assets/images/view-artwork-bg.png);
+}
+
+.embed-nfts {
+  background-image: url(../../assets/images/Embedded-NFTs-bg.png);
+}

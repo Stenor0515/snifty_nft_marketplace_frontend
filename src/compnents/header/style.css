@@ -1,0 +1,27 @@
+body {
+  position: relative;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.mobile-menu {
+  position: absolute;
+  background-color: white;
+  top: 70px;
+  left: 1%;
+  width: 98%;
+  max-height: 0px;
+  z-index: 999999;
+  border-radius: 10px;
+  overflow-y: hidden;
+  transition: all 0.5s;
+}
+
+.mobile-menu.active {
+  max-height: 1000px;
+}
+
+.web3modal-modal-lightbox {
+  z-index: 1000 !important;
+}

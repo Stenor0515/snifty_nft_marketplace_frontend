@@ -1,0 +1,26 @@
+.dropzone-container {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-image-container {
+  max-height: 350px;
+}
+.cover-image-container img {
+  display: block;
+  max-height: 350px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .cover-image-container,
+  .cover-image-container img {
+    max-height: 150px;
+  }
+  .dropzone-container {
+    min-height: 150px;
+  }
+}

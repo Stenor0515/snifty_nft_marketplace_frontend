@@ -1,0 +1,10 @@
+export { default as Banner } from "./Banner";
+export { default as LatestWork } from "./LatestWork";
+export { default as LatestDrops } from "./LatestDrops";
+export { default as UpcomingSales } from "./UpcomingSales";
+export { default as ViewArtwork } from "./ViewArtwork";
+export { default as ReserveAuction } from "./ReserveAuction";
+export { default as About } from "./About";
+export { default as EmbeddedNfts } from "./EmbeddedNfts";
+export { default as BecomeArtist } from "./BecomeArtist";
+export { default as JoinCommunity } from "./JoinCommunity";
